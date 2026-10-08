@@ -1,0 +1,19 @@
+{
+  "name": "qos-reference-backend",
+  "version": "1.0.0",
+  "description": "Backend de referencia para el test de throughput de Network QoS Monitor",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0"
+  }
+}
